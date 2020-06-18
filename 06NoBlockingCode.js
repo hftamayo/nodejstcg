@@ -20,12 +20,12 @@ if(url === "/mensaje" && metodo==='POST'){
     req.on('end', () => {
         const parseBody = Buffer.concat(body).toString();
         const message = parseBody.split('=')[1];
-        sistarc.writeFileSync("mensaje.txt", message);//pausa el codigo hasta que el archivo es creado, no se recomienda su uso
-
+        sistarc.writeFile("mensaje.txt", message, (err) => {
+            res.statusCode = 302; //este codigo significa redireccion
+            res.setHeader('Location', '/');
+            return res.end();        
+        });
     });
-    res.statusCode = 302; //este codigo significa redireccion
-    res.setHeader('Location', '/');
-    return res.end();
 }
     res.setHeader('Content-Type', 'text/html');
     res.write('<html>');
