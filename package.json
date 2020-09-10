@@ -1,0 +1,26 @@
+{
+  "name": "udemytcg",
+  "version": "1.0.0",
+  "description": "Udemy the Complete Guide Course Exercises ",
+  "main": "07NodeModuleSystem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node 07NodeModuleSystem.js",
+    "iniciar-server": "node 07NodeModuleSystem.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hftamayo/nodejstcg.git"
+  },
+  "keywords": [
+    "nodejs-basic",
+    "nodejs-fundamentals",
+    "nodejs-101"
+  ],
+  "author": "hftamayo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hftamayo/nodejstcg/issues"
+  },
+  "homepage": "https://github.com/hftamayo/nodejstcg#readme"
+}
