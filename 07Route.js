@@ -52,8 +52,8 @@ module.exports = {
 module.exports.handler = requestHandler;
 module.exports.someText = 'hard code text';
 */
-
 //y otro forma mas de hacer lo mismo:
+
 exports.handler = requestHandler;
 exports.someText = 'hard code text';
 
