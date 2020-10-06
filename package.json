@@ -2,11 +2,11 @@
   "name": "udemytcg",
   "version": "1.0.0",
   "description": "Udemy the Complete Guide Course Exercises ",
-  "main": "07NodeModuleSystem.js",
+  "main": "08Quizapp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node 07NodeModuleSystem.js",
-    "iniciar-server": "node 07NodeModuleSystem.js"
+    "start": "node 08Quizapp.js",
+    "iniciar-server": "node 08Quizapp.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/hftamayo/nodejstcg/issues"
   },
-  "homepage": "https://github.com/hftamayo/nodejstcg#readme"
+  "homepage": "https://github.com/hftamayo/nodejstcg#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
